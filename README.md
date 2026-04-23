@@ -2,6 +2,13 @@
 
 My learnings on C++
 
+## Getting Started
+
+Compile with specific versio of C++
+```
+g++ -std=c++20 add-two-strings.cpp utils.cpp
+```
+
 ## Reference (Learning)
 - [isocpp.org](https://isocpp.org/get-started)
 - [cplusplus.com](https://cplusplus.com/)
