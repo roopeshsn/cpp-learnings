@@ -4,7 +4,7 @@ My learnings on C++
 
 ## Getting Started
 
-Compile with specific versio of C++
+Compile with specific version of C++
 ```
 g++ -std=c++20 add-two-strings.cpp utils.cpp
 ```
