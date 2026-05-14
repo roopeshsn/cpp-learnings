@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Given an array of integers, find if there exists a pair whose sum equals a given number K.
 void sum_equals_k(int nums[], int n, int target) {
     map<int, int> nums_map;
     for(int i = 0; i < n; i++) {
