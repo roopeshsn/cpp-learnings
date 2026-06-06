@@ -4,6 +4,10 @@
 
 using namespace std;
 
+// start will point to index 0
+// end will point to last index
+// second = target - nums[start]
+// as the array is sorted we will use the technique similar to binary search
 void sum_equals_k(int nums[], int n, int target) {
     sort(nums, nums+n);
     int start = 0;
