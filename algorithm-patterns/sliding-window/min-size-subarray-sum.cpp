@@ -5,6 +5,10 @@
 
 using namespace std;
 
+// Minimum Size Subarray Sum
+// Given an array of positive integers nums and a positive integer target, 
+// return the minimal length of a subarray whose sum is greater than or equal to target. 
+// If there is no such subarray, return 0 instead.
 int min_size_subarray_sum(vector<int> nums, int target) {
     int current_sum = 0;
     int min_len_window = INT_MAX;
